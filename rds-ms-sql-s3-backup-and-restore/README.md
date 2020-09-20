@@ -1,8 +1,11 @@
-# Welcome to your CDK TypeScript project!
+# RDS SQL Server - Native Backup and Restore in CDK
 
-This is a blank project for TypeScript development with CDK.
+When migrating your SQL Server database from on-premise to AWS you have lots of different methods to get it done.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This repo contains the popular solution that uses S3 to host your SQL backup file and import this into your new RDS database.
+
+You can find a step-by-step tutorial on how to use this solution here:
+[https://edwinradtke.com/rds-ms-sql-native-backup-and-restore-in-cdk]
 
 ## Useful commands
 
