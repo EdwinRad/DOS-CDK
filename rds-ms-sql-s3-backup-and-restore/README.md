@@ -5,7 +5,7 @@ When migrating your SQL Server database from on-premise to AWS you have lots of 
 This repo contains the popular solution that uses S3 to host your SQL backup file and import this into your new RDS database.
 
 You can find a step-by-step tutorial on how to use this solution here:
-[https://edwinradtke.com/rds-ms-sql-native-backup-and-restore-in-cdk]
+[Tutorial: RDS SQL Server - Native Backup and Restore in CDK](https://edwinradtke.com/rds-ms-sql-native-backup-and-restore-in-cdk)
 
 ## Useful commands
 
